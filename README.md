@@ -2,7 +2,7 @@
 
 ## Description
 
-The recipe is created with ruby on rails and allows logged in users to create recipes from food items they have available. It also allows them to view public recipes shared by other users.
+The hello rails react is created to help me lean how to integrate rails with react code
 
 
 ![screenshot](./screenshot.png)
@@ -11,21 +11,18 @@ The recipe is created with ruby on rails and allows logged in users to create re
 
 - Ruby
 - Ruby on Rails
+- React
 
 ## Getting Started
 
 To get the content of this project locally you need to run this command in your terminal:
 ``` bash
 git clone your https://github.com/matovu-farid/budgeter.git
-cd recipe
+cd hello rails react
 bundle install
 rails s
 ```
-## Tests
-To run the tests, navigate to the root directory of this app and run
-```ruby
-rspec spec
-```
+
 
 ## Authors
 
@@ -35,11 +32,6 @@ rspec spec
 - Twitter: [@matovu100](https://twitter.com/matovu100)
 - LinkedIn: [matovu-farid](https://www.linkedin.com/in/matovu-farid-48b80257)
 
-👤 **Rachid El aid**
-
-- GitHub: [@rachidelaid](https://github.com/rachidelaid)
-- Twitter: [@rachidelaid1](https://twitter.com/rachidelaid1)
-- LinkedIn: [rachid elaid](https://www.linkedin.com/in/rachidelaid/)
 
 ## Show your support
 
