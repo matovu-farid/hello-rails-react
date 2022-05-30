@@ -1,11 +1,20 @@
-import React from "react"
+import React, { useEffect } from "react"
 import PropTypes from "prop-types"
-class App extends React.Component {
-  render () {
+import { BrowserRouter } from "react-router-dom"
+import MyRoutes from "./Routes"
+import { Provider, useDispatch } from 'react-redux'
+import { store } from './redux/store'
+import { fetchRandomMessage } from "./redux/message"
+const App =()=> {
+
     return (
-     <h1>Hello Farid</h1>
+      <Provider store={store}>
+      <BrowserRouter>
+       <MyRoutes></MyRoutes>
+      </BrowserRouter>
+      </Provider>
     );
-  }
+  
 }
 
 export default App
