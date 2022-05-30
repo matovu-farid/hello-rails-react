@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "style": "stylelint \"**/*.{css,scss}\""
+  },
   "dependencies": {
     "@babel/preset-react": "^7.17.12",
     "@rails/webpacker": "5.4.3",
